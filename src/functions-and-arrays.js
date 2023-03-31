@@ -58,7 +58,7 @@ function sum(array) {
       }
     }
     else if (typeof array[i] === 'object' || Array.isArray([array[i]]) === true){
-      throw new Error ('Cant add those');
+      throw new Error ("Unsupported data type sir or ma'am");
     }
   }
   return totalsum;
